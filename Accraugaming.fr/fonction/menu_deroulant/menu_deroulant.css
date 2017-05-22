@@ -1,0 +1,107 @@
+.menu_deroulant, .menu_deroulant ul
+{
+		padding : 0;
+		margin : 10px;
+		list-style : none;
+		line-height : 21px;
+		text-align : left;
+}
+
+.menu_deroulant
+{
+		font-weight : bold;
+		font-family : Arial;
+		font-size : 12px;
+}
+
+.menu_deroulant a
+{
+		display : block;
+		padding : 0;
+		background : #000;
+		color : #fff;
+		text-decoration : none;
+		width : 144px;
+}
+
+.menu_deroulant li
+{ 
+
+		float : left; 
+		border-right : 1px solid #fff;/*pour IE*/
+
+}
+
+html>body .menu_deroulant li/*pas pris en compte par IE avec html>body*/
+{
+
+		border-right: 1px solid transparent ;
+
+}
+
+.menu_deroulant li ul
+{ 
+
+		position: absolute;
+		width: 144px;
+		max-height:0em;
+		transition: 0.8s max-height 0.1s;
+		overflow: hidden;
+
+}
+
+.menu_deroulant li ul li
+{ 
+
+		border-top : 1px solid #fff;
+}
+
+html>body .menu_deroulant li ul li
+{ 
+
+		border-top : 1px solid transparent;
+
+}
+
+.menu_deroulant li ul ul
+{ 
+
+		margin    : -22px 0 0 144px ;
+		border-left     : 1px solid #fff ;
+
+}
+
+html>body .menu_deroulant li ul ul
+{ 
+
+		border-left     : 1px solid transparent ;
+
+}
+
+.menu_deroulant a:hover /* Lorsque la souris passe sur un des liens */    
+{
+
+        color: #000; /* On passe le texte en noir... */
+
+        background: #fff; /* ... et au contraire, le fond en blanc */
+
+}
+
+.menu_deroulant li:hover ul ul, .menu_deroulant li.sfhover ul ul
+/* Sous-sous-listes lorsque la souris passe sur un élément de liste */
+{
+
+        max-height:0em;
+
+}
+
+
+.menu_deroulant li:hover ul, .menu_deroulant li li:hover ul, .menu_deroulant li.sfhover ul, .menu_deroulant li li.sfhover ul
+/* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+{
+
+        max-height:13em; /* Repositionnement normal */
+
+        min-height: 0; /* Corrige un bug sous IE */
+
+}
