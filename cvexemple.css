@@ -1,0 +1,43 @@
+.c2 {
+	margin-left: 500px;
+	margin-top: -270px;
+}
+.es {
+	margin-top: -15px;
+}
+.ds {
+	margin-top: -11px;
+	margin-left: 65px;
+}
+.mp {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+	margin-left: 40px;
+}
+.ep {
+	color: rgb(50, 210, 190);
+	font-weight: bold;
+}
+.ti {
+	font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#045FB4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span.date {
+	color: rgb(127, 200, 76);
+}
+span.ep {
+	color: rgb(50, 210, 190);
+	font-weight: bold;
+}
+
+span.lieu {
+    font-weight: bold;
+}
+span.mt {
+	color: rgb(50, 200, 200);
+	font-style: italic;
+}

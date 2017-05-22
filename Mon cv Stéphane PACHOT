@@ -1,0 +1,41 @@
+<html>
+   <head>
+   <title>mon cv personnel</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+   <header>
+          <h1>Stéphane PACHOT</h1>
+          </header>
+          
+          <nav>
+             <div class="table">
+             <ul>
+               <li class="menu-ind">
+                 <a href="index.htlm">Acceuil</a>
+                 </li>
+                 <li  class="menu-exp">
+                  <a href="experiences-pro.htlm">experience professionnelles</a>
+                  </li>
+                  <li>Boulangerie</li>
+                  <li>Menuiserie</li>
+                  <li>libre service</li>
+                  <li class="menu-hob">
+                  <a href="hobbies.htlm">Loisirs</a>
+                  </li>
+                  <li>Informatique</li>
+                  <li>Vélo</li>
+                  <li>vidéo montage</li>
+                  <li class="menu-con">
+                  <a href="contact.htlm" >contactez-moi !</a>
+                  </li>
+                  <li> Stéphane PACHOT au jaipasdenum.commdr</li>
+                  </ul>
+                  </div>
+                  </nav>
+     </body>
+</html>
+   
+ 
